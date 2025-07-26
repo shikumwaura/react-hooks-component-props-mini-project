@@ -1,13 +1,20 @@
 import React from "react";
-import blogData from "../data/blog";
-
-console.log(blogData);
 
 function App() {
   return (
     <div className="App">
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
+      <header>
+        {/* You can add header content here */}
+        <h1>My Blog</h1>
+      </header>
+      <aside>
+        {/* You can add sidebar content here */}
+        <p>Sidebar content</p>
+      </aside>
+      <main>
+        {/* You can add main content here */}
+        <p>Main content goes here</p>
+      </main>
     </div>
   );
 }
